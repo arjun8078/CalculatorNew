@@ -1,0 +1,56 @@
+
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Set the border radius for curved corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+    background-color: #575757;
+  }
+  
+  .display {
+    
+    padding: 10px;
+    text-align: right;
+  }
+  
+  .input {
+    background-color: #bcd1c2;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+  
+  .result {
+    background-color: #bcd1c2;
+    font-size: 1.5em;
+    color: #777;
+    padding: 10px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold; 
+  }
+  
+  button:active {
+    background-color: #0056b3;
+  }
+  .buttons button.equal {
+    background-color: #ff9900; /* Set the background color of the '=' button to orange */
+  }
+  
